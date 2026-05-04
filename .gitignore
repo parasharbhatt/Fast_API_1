@@ -3,7 +3,7 @@ Lib/
 Scripts/
 Include/
 .venv/
-pyenv.cfg
+pyvenv.cfg
 
 
 
