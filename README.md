@@ -10,7 +10,7 @@ Create venv and activate it
 update .gitignore to exclude .venv setup and files/folders related to it.
 
 Need to install:
-
+Python version used: 3.12.1
 pip install fastapi uvicorn sqlalchemy pyodbc pydantic
 
 Note: Ensure you have the Microsoft ODBC Driver for SQL Server installed on your system:
