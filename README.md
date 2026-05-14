@@ -4,9 +4,9 @@
 About Project:
 
 The code is developed for API Get and Post method using 'FASTAPI'.
-It connects SQL Server database using environment variable
-It lets retrieve user information using Get method and Lets to add
-user info (Name and Email) using POST method.
+IThe application connects SQL Server database using environment variables.
+User can retrieve  information using GET method endpoint and add user information (Name and Email) 
+using POST method.
 Interactive Swagger UI is used for testing both (GET and POST) endpoints.
 
 
