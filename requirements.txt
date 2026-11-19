@@ -1,3 +1,4 @@
+# Includes the FastAPI, SQLAlchemy, HTTPX, and pyodbc dependencies used by test_main.py.
 annotated-doc==0.0.4
 annotated-types==0.7.0
 anyio==4.13.0

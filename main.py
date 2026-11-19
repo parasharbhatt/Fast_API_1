@@ -1,4 +1,5 @@
 from fastapi import FastAPI, Depends, HTTPException
+from sqlalchemy import text
 from sqlalchemy.orm import Session
 import models, database
 
@@ -21,3 +22,14 @@ def create_user(name: str, email: str, db: Session = Depends(database.get_db)):
     db.commit()
     db.refresh(new_user)
     return new_user
+
+@app.get("/film-details/{film_id}")
+def read_film_details(film_id: int, db: Session = Depends(database.get_db)):
+    result = db.execute(
+        text("SELECT * FROM FilmDetail WHERE Filmid = :film_id"),
+        {"film_id": film_id},
+    )
+    film = result.mappings().first()
+    if film is None:
+        raise HTTPException(status_code=404, detail="Film not found")
+    return dict(film)
