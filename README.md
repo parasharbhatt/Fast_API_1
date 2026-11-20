@@ -1,5 +1,16 @@
 # Fast_API_1
 
+## Project Category
+
+**EDA (Data Analysis)** · **Data Engineering** · **API Development** · **Backend Development**
+
+## Tools
+
+**Python** · **FastAPI** · **SQLAlchemy** · **Microsoft SQL Server** · **pyodbc** · **Pydantic** · **Uvicorn** · **Swagger / OpenAPI** · **unittest**
+
+### Tags
+
+`EDA` `Data Analysis` `Data Engineering` `Python` `FastAPI` `REST API` `SQLAlchemy` `Microsoft SQL Server` `pyodbc` `Pydantic` `Uvicorn` `Swagger` `OpenAPI` `unittest`
 
 About Project:
 
